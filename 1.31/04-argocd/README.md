@@ -5,7 +5,7 @@
 Добавляем Helm chart:
 
 ```shell
-helm repo add https://argoproj.github.io/argo-helm
+helm repo add argocd https://argoproj.github.io/argo-helm
 helm repo update
 ```
 

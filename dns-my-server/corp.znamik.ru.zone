@@ -1,0 +1,26 @@
+$TTL 86400
+@ IN SOA master.corp.znamik.ru. admin.corp.znamik.ru. (
+                                                2025032601 ; Serial
+                                                3600 ; Refresh
+                                                1800 ; Retry
+                                                604800 ; Expire
+                                                86400 ; Minimum TTL
+)
+
+@ IN NS master
+
+master          IN      A       192.168.218.170
+control1        IN      A       192.168.218.171
+control2        IN      A       192.168.218.172
+control3        IN      A       192.168.218.173
+worker1         IN      A       192.168.218.174
+worker2         IN      A       192.168.218.175
+worker3         IN      A       192.168.218.176
+db1             IN      A       192.168.218.177
+
+metallb         IN      A       192.168.218.180
+argocd          IN      CNAME   metallb
+keycloak        IN      CNAME   metallb
+
+kubeapi         IN      A       192.168.218.189
+

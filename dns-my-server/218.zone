@@ -1,0 +1,23 @@
+$TTL 86400
+@ IN SOA master.corp.znamik.ru. admin.corp.znamik.ru. (
+                                            2025032601 ; Serial
+                                            3600 ; Refresh
+                                            1800 ; Retry
+                                            604800 ; Expire
+                                            86400 ; Minimum TTL
+)
+
+@ IN NS master.corp.znamik.ru.
+
+170     IN      PTR     master.corp.znamik.ru.
+171     IN      PTR     control1.corp.znamik.ru.
+172     IN      PTR     control2.corp.znamik.ru.
+173     IN      PTR     control3.corp.znamik.ru.
+174     IN      PTR     worker1.corp.znamik.ru.
+175     IN      PTR     worker2.corp.znamik.ru.
+176     IN      PTR     worker3.corp.znamik.ru.
+177     IN      PTR     db1.corp.znamik.ru.
+
+180     IN      PTR     metallb.corp.znamik.ru.
+189     IN      PTR     kubeapi.corp.znamik.ru.
+

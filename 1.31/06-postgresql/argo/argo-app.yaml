@@ -10,7 +10,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: 1.31/06-postgresql/manifests
-    repoURL: 'https://github.com/BigKAA/youtube'
+    repoURL: 'https://github.com/isaeleyson/youtube'
     targetRevision: master
   project: default
   syncPolicy:
